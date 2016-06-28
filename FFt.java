@@ -106,6 +106,13 @@ public class FFt {
         
         System.out.println("Output of FFT");
         print(y);
+        System.out.println("absolute value");
+        double[] a=new double[x.length];
+        for(int i=0;i<y.length;i++){
+        	a[i]=y[i].abs();
+        	System.out.println(a[i]);
+        }
+
         } 
         
              
@@ -125,21 +132,21 @@ public class FFt {
         
         System.out.println("Output of FFT");
         print(y);
+        System.out.println("absolute value");
+        double[] a=new double[x.length];
+        for(int i=0;i<y.length;i++){
+        	a[i]=y[i].abs();
+        	System.out.println(a[i]);
+        }
+
         
         }
                 
         
 
-        // FFT of original data
+             
         
-        
-       /*System.out.println("absolute value");
-        double[] a=new double[x.length];
-        for(int i=0;i<x.length;i++){
-        	a[i]=y[i].abs();
-        	System.out.println(a[i]);
-        }*/
-
+       
         
     }
 
